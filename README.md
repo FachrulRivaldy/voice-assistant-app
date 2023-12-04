@@ -1,3 +1,3 @@
 # VICTORIA
 
-A Voice Assitant Flutter Application.
+A Voice assistant application made with Flutter.
