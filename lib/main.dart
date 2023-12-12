@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Victoria',
       theme: ThemeData.light(useMaterial3: true).copyWith(
+          textTheme:
+              const TextTheme(bodyLarge: TextStyle(fontFamily: 'Cera Pro')),
           scaffoldBackgroundColor: Pallete.whiteColor,
           appBarTheme: const AppBarTheme(backgroundColor: Pallete.whiteColor)),
       home: const SafeArea(child: HomePage()),
